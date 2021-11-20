@@ -1,0 +1,10 @@
+<ui-card>
+    <ng-container body>
+        <ui-text-input [label]="'email'" [type]="'email'" [control]="email"></ui-text-input>
+        <ui-text-input [label]="'password'" [type]="'password'" [control]="password"></ui-text-input>
+    </ng-container>
+    <ng-container footer>
+        <ui-button [color]="'accent'">Cancel</ui-button>
+        <ui-button [color]="'primary'" [disabled]="!email.valid || !password.valid">Post</ui-button>
+    </ng-container>
+</ui-card>

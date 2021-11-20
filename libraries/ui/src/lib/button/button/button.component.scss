@@ -1,0 +1,62 @@
+// .btn {
+//   position: relative;
+
+//   display: block;
+//   padding: 0;
+
+//   overflow: hidden;
+
+//   border-width: 0;
+//   outline: none;
+//   border-radius: 2px;
+//   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+//   color: #ecf0f1;
+
+//   transition: background-color 0.3s;
+
+//   & > * {
+//     position: relative;
+//   }
+
+//   &:before {
+//     content: "";
+
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+
+//     width: 0;
+//     padding-top: 0;
+
+//     border-radius: 100%;
+
+//     background-color: rgba(236, 240, 241, 0.3);
+
+//     transform: translate(-50%, -50%);
+//   }
+
+//   &:active:before {
+//     width: 120%;
+//     padding-top: 120%;
+
+//     transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+//   }
+
+//   &:active {
+//     box-shadow: none;
+//   }
+
+//   span {
+//     display: block;
+//     padding: 12px 24px;
+//   }
+
+//   &:disabled,
+//   &[disabled] {
+//     border: 1px solid #999999;
+//     background-color: hsl(0, 0%, 80%);
+//     color: #666666;
+//     cursor: not-allowed;
+//   }
+// }

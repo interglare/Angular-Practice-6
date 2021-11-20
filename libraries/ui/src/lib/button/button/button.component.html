@@ -1,0 +1,10 @@
+<button
+  class="inline-flex items-center px-4 py-2 border rounded-md shadow font-medium text-white disabled:text-gray-600 disabled:cursor-not-allowed"
+  type="button"
+  [ngStyle]="{ backgroundColor: hover ? Color[1] : Color[0] }"
+  [disabled]="disabled"
+>
+  <span>
+    <ng-content></ng-content>
+  </span>
+</button>
